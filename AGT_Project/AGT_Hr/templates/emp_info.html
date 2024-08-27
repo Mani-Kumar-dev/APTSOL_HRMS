@@ -1,0 +1,74 @@
+{% extends "base.html"%}
+{% load static %}
+{% block title %}
+<title>Employee Info</title>
+{% endblock title %}
+
+{% block mainnavcontent%}
+<div class="row">
+    <div class="col-md-12">
+        <h1 class="admin-head">Employee Information</h1>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <div class="img-emp">
+            <img src="{{emps.image.url}}" class="img-fluid emp_pic" alt="Employee-Image">
+        </div>
+    </div>
+    <div class="col-md-6">
+        <table class="table table-borderless">
+            <tbody class="d-flex flex-column align-items-start">
+              <tr>
+                <th scope="row">Name :</th>
+                <td>{{emps.First_Name}} {{emps.Last_Name}}</td>
+              </tr>
+              <tr>
+                <th scope="row">Email :</th>
+                <td> {{emps.Email}}</td>
+              </tr>
+              <tr>
+                <th scope="row">Contact :</th>
+                <td>{{emps.Contact}}</td>
+              </tr>
+              <tr>
+                <th scope="row"> Emp_Id :</th>
+                <td>{{emps.Emp_Id}}</td>
+              </tr>
+              <tr>
+                <th scope="row">Department :</th>
+                <td>{{emps.Department}}</td>
+              </tr>
+              <tr>
+                <th scope="row">Designation :</th>
+                <td>{{emps.Designation}}</td>
+              </tr>
+              <tr>
+                <th scope="row">Salary :</th>
+                <td>{{emps.Salary}}</td>
+              </tr>
+              <tr>
+                <th scope="row">BasicPay :</th>
+                <td>{{emps.BasicPay}}</td>
+              </tr>
+              <tr>
+                <th scope="row">PAN :</th>
+                <td>{{emps.PAN}}</td>
+              </tr>
+              <tr>
+                <th scope="row">UAN :</th>
+                <td>{{emps.UAN}}</td>
+              </tr>
+              <tr>
+                <th scope="row">BankAccount  :</th>
+                <td>{{emps.BankAccount }}</td>
+              </tr>
+              <tr>
+                <th scope="row">Location :</th>
+                <td>{{emps.Location}}</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+</div>
+{% endblock mainnavcontent%}

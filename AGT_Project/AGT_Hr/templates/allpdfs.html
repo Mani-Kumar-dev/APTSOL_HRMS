@@ -1,0 +1,116 @@
+{% extends "base.html"%}
+{% load static %}
+{% block title %}
+<title>Employee Information Management</title>
+{% endblock title %}
+
+{% block mainnavcontent%}
+<div class="row mb-5 mt-5">
+    <div class="col-md-12">
+        <h1 class="admin-head">
+         UPLOAD DOCUMENTS
+        </h1>
+    </div>
+</div>
+<div class="row mb-5">
+    <div class="col-md-4">
+        <div class="card main-card">
+            <div class="card-icon">
+                <i class="fa-solid fa-users"></i>
+            </div>
+            <div class="card-title">
+                <h4 class="card_text">UPLOAD PAYSLIP</h4>
+            </div>
+            <div class="card-link">
+                <a href="{% url 'createPayslips' employee.Emp_Id %}" class="view_list">View</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card main-card">
+            <div class="card-icon">
+                <i class="fa-solid fa-users"></i>
+                
+            </div>
+            <div class="card-title">
+                <h4 class="card_text">UPLOAD OFFER LETTER</h4>
+            </div>
+            <div class="card-link">
+                <a href="" class="view_list">View</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card main-card">
+            <div class="card-icon">
+                <i class="fa-solid fa-users"></i>
+                
+            </div>
+            <div class="card-title">
+                <h4 class="card_text">UPLOAD APPOINTMENT</h4>
+            </div>
+            <div class="card-link">
+                <a href="" class="view_list">View</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row mb-5">
+    <div class="col-md-4">
+        <div class="card main-card">
+            <div class="card-icon">
+                <i class="fa-solid fa-users"></i>
+            </div>
+            <div class="card-title">
+                <h4 class="card_text">UPLOAD HIKE LETTER</h4>
+            </div>
+            <div class="card-link">
+                <a href="" class="view_list">View</a>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="col-md-4">
+        <div class="card main-card">
+            <div class="card-icon">
+                <i class="fa-solid fa-users"></i>
+                
+            </div>
+            <div class="card-title">
+                <h4 class="card_text">LEAVE REQUEST</h4>
+            </div>
+            <div class="card-link">
+                <a href="" class="view_list">View</a>
+            </div>
+        </div>
+    </div> -->
+    <div class="col-md-4">
+        <div class="card main-card">
+            <div class="card-icon">
+                <i class="fa-solid fa-users"></i>
+            </div>
+            <div class="card-title">
+                <h4 class="card_text">UPLOAD RELEVING LETTER</h4>
+            </div>
+            <div class="card-link">
+                <a href="" class="view_list">View</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card main-card">
+            <div class="card-icon">
+                <i class="fa-solid fa-users"></i>
+                
+            </div>
+            <div class="card-title">
+                <h4 class="card_text">UPLOAD ALLOWANCE</h4>
+            </div>
+            <div class="card-link">
+                <a href="" class="view_list">View</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock mainnavcontent%}

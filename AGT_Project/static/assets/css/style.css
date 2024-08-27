@@ -1,0 +1,193 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    
+}
+a{
+    text-decoration: none;
+}
+.main-navbarflex {
+    display: inline-flex;
+}
+section.signform {
+    background:linear-gradient(90deg, rgba(12,84,160,0.5691526610644257) 0%, rgba(12,84,160,0.46551120448179273) 100%),url("../images/admin/admin_bg.jpg") no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.form_sign {
+    width: 35%;
+    margin: 68px auto;
+    padding: 35px;
+    border-radius: 10px;
+    background: #ffffff1f;
+   
+}
+.head {
+    text-align: center;
+}
+h1.loghead {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 25px auto;
+}
+.btn-log {
+    border: 1px solid #fff;
+    color: #fff;
+    margin-bottom: 20px;
+
+}
+.btn-log:hover {
+    background: #fff;
+    color: #0c54a0;
+}
+input.form-control.form-log {
+    margin-bottom: 18px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    border-radius: 0;
+    color: #fff;
+}
+.form-log::placeholder {
+    color: #fff;
+}
+.form-log:active {
+    color: #fff;
+}
+.form-log:focus {
+    box-shadow: none;
+    color: #fff;
+}
+a.loginlink {
+    color: #fff;
+}
+/*----sidenav---*/
+section.sidenav {
+    width: 20%;
+    background:#00000012;
+    min-height: 100vh;
+}
+.main-nav{
+    width: 100%;
+
+}
+.logoApt {
+    padding: 15px;
+}
+nav.navbar {
+    background: #0c54a0;
+    margin-left: -12px;
+}
+ul.list-group {
+    margin: -15px 0px 0 0px;
+    padding: 30px;
+}
+h3.user_con {
+    color: #00843e;
+    font-size: 16px;
+    text-align: center;
+}
+a.nav-link {
+    color: #fff !IMPORTANT;
+}
+a.navbar-brand {
+    color: #fff !IMPORTANT;
+}
+
+li.list-items {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+span.side-item {
+    margin-left: 20px;
+    color: #00843e;
+}
+i.fa-solid {
+    color: #0c54a0;
+    font-size: 25px;
+}
+h3.user_name {
+    color: #fff;
+    font-size: 16px;
+}
+/*--------Admin starts----*/
+.card.admin-card {
+    text-align: center;
+    padding: 40px;
+}
+
+/*---Admin-ends---*/
+/*---LOgin---*/
+input.form-control.form-sign {
+    margin-bottom: 12px;
+}
+/**---login--*/
+
+/*----ADMIN-page--starts---*/
+h1.admin-head {
+    color: #0c54a0;
+}
+h4.card_text {
+    color: #00843e;
+}
+.card.main-card {
+    align-items: center;
+    justify-items: center;
+    padding: 30px;
+    /* -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75); */
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(37,138,0,1);
+-moz-box-shadow: 0px 0px 5px 1px rgba(37,138,0,1);
+box-shadow: 0px 0px 5px 1px rgba(37,138,0,1);
+}
+.card-icon {
+    margin-bottom: 18px;
+}
+span.side-head {
+    font-size: 25px;
+    font-weight: 400;
+    color: #00843e;
+}
+table {
+    font-size: 12px;
+}
+/*-----ID Card---*/
+.card.Id_card {
+    width: 60%;
+}
+.img-card {
+    width: 35%;
+    margin: 0 auto;
+}
+img.card-img.id_img {
+    border-radius: 50%;
+    margin: 0 0 -35px 0;
+}
+/*-----ends ID Card---*/
+
+/*---addEmployee starts--*/
+
+input.form-control.addform {
+    margin-bottom: 10px;
+}
+/*---Ends addEmployee starts--*/
+/*---Employee view starts--*/
+.icon_view {
+    font-size: 15px !IMPORTANT;
+    padding: 0px 3px;
+}
+i.fa-solid.fa-trash {
+    color: #c53333;
+}
+/*---Employee view Ends--*/

@@ -1,0 +1,121 @@
+{% extends "base.html"%}
+{% load static %}
+{% block title %}
+<title>Employee Information Management</title>
+{% endblock title %}
+
+{% block mainnavcontent%}
+<div class="row mb-5 mt-5">
+    <div class="col-md-12">
+        <h1 class="admin-head">
+          EMPLOYEE INFORMATION MANAGEMENT
+        </h1>
+    </div>
+</div>
+<div class="row mb-5">
+    <div class="col-md-4">
+        <div class="card main-card">
+            <div class="card-icon">
+                <i class="fa-solid fa-users"></i>
+                <!-- <span class="side-head">100</span> -->
+            </div>
+            <div class="card-title">
+                <h4 class="card_text">PERSONAL INFO</h4>
+            </div>
+            <div class="card-link">
+                <a href="{% url 'Emp_info' emps.Emp_Id %}" class="view_list">View</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card main-card">
+            <div class="card-icon">
+                <i class="fa-solid fa-users"></i>
+                <!-- <span class="side-head">100</span> -->
+            </div>
+            <div class="card-title">
+                <h4 class="card_text">MY PAYROLLS</h4>
+            </div>
+            <div class="card-link">
+                <a href="/payrolls" class="view_list">View</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card main-card">
+            <div class="card-icon">
+                <i class="fa-solid fa-users"></i>
+                <!-- <span class="side-head">100</span> -->
+            </div>
+            <div class="card-title">
+                <h4 class="card_text">MY HR</h4>
+            </div>
+            <div class="card-link">
+                <a href="/myhr" class="view_list">View</a>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="col-md-4">
+        <div class="card main-card">
+            <div class="card-icon">
+                <i class="fa-solid fa-users"></i>
+    
+            </div>
+            <div class="card-title">
+                <h4 class="card_text">LEAVES</h4>
+            </div>
+            <div class="card-link">
+                <a href="{% url 'leaverequest' emps.Emp_Id %}" class="view_list">View</a>
+                <a href="/lms" class="view_list">View</a>
+            </div>
+        </div>
+    </div> -->
+</div>
+<div class="row mb-5">
+   
+    <!-- <div class="col-md-4">
+        <div class="card main-card">
+            <div class="card-icon">
+                <i class="fa-solid fa-users"></i>
+                
+            </div>
+            <div class="card-title">
+                <h4 class="card_text">ATTENDANCE</h4>
+            </div>
+            <div class="card-link">
+                <a href="" class="view_list">View</a>
+            </div>
+        </div>
+    </div> -->
+    <!-- <div class="col-md-4">
+        <div class="card main-card">
+            <div class="card-icon">
+                <i class="fa-solid fa-users"></i>
+              
+            </div>
+            <div class="card-title">
+                <h4 class="card_text">FORM16</h4>
+            </div>
+            <div class="card-link">
+                <a href="" class="view_list">View</a>
+            </div>
+        </div>
+    </div> -->
+</div>
+<!-- <div class="row mb-5 mt-5">
+    <div class="col-md-4 mb-3">
+        <div class="card main-card">
+            <div class="card-icon">
+                <i class="fa-solid fa-users"></i>
+                <!-- <span class="side-head">100</span>
+            </div>
+            <div class="card-title">
+                <h4 class="card_text">ID CARD</h4>
+            </div>
+            <div class="card-link">
+                <a href="{% url 'Id_card' emps.Emp_Id %}" class="view_list">View</a>
+            </div>
+        </div>
+    </div>
+</div> -->
+{% endblock mainnavcontent%}

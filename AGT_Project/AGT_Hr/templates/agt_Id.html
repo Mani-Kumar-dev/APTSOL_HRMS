@@ -1,0 +1,44 @@
+{% extends "base.html"%}
+{% load static %}
+{% block title %}
+<title>AGT_ID CARD</title>
+{% endblock title %}
+
+{% block mainnavcontent%}
+<div class="row">
+    <div class="col-md-12">
+        <h1 class="admin-head">Employee Identity</h1>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <div class="card Id_card">
+            <div class="card-image">
+                <img src="{% static 'assets/images/Logo/logo.png'%}" class="img-fluid" alt="Id-Card Logo">
+            </div>
+            <div class="emp-image">
+                <img src="{{emps.image.url}}" class="img-fluid" alt="Employee-Image">
+            </div>
+            <div class="card_content">
+                <ul class="list-group list_card">
+                    <li class="list-item id_details">
+                        Name : {{emps.First_Name}} {{emps.Last_Name}}
+                    </li>
+                    <li class="list-item id_details">
+                        Emp-Id : {{emps.Emp_Id}}
+                    </li>
+                    <li class="list-item id_details">
+                        Designation : {{emps.Designation}}
+                    </li>
+                    <li class="list-item id_details">
+                        Contact : {{emps.Contact}}
+                    </li>
+                    <li class="list-item id_details">
+                        Address : {{emps.Location}}
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock mainnavcontent%}

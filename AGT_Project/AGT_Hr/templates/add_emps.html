@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}
+<title>Add Employees</title>
+{% endblock title %}
+{% block mainnavcontent %}
+<div class="row mb-3 mt-5">
+    <div class="col-md-12">
+        <h1 class="admin-head">ADD EMPLOYEES</h1>
+    </div>
+</div>
+<div class="row mb-3">
+    <div class="col-md-6">
+        <div class="add_empsForm">
+            {% for message in messages %}
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                <strong>{{message}}</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            {% endfor %}
+            <form action="/AddEmps/" method="POST" enctype="multipart/form-data">{% csrf_token %}
+                <label for="img-upload">Upload image</label>
+                <input type="file" id="img-upload" class="form-control addform" placeholder="Upload image" name="image">
+                <input type="text" class="form-control addform" placeholder="First Name" id="First_Name" name="First_Name" required>
+                <input type="text" class="form-control addform" placeholder="Last Name" id="Last_Name" name="Last_Name" required>
+                <input type="email" class="form-control addform" placeholder="Email" id="Email" name="Email" required>
+                <input type="number" class="form-control addform" placeholder="Contact" id="Contact" name="Contact" required>
+                <input type="number" class="form-control addform" placeholder="Emp_Id" id="Emp_Id" name="Emp_Id" required>
+                <input type="text" class="form-control addform" placeholder="Department" id="Department" name="Department" required>
+                <input type="text" class="form-control addform" placeholder="Designation" id="Designation" name="Designation" required>
+                <input type="number" class="form-control addform" placeholder="Salary" id="Salary" name="Salary" required>
+                <input type="text" class="form-control addform" placeholder="BasicPay" id="BasicPay" name="BasicPay" required>
+                <input type="text" class="form-control addform" placeholder="PAN" name="PAN" id="PAN" required>
+                <input type="number" class="form-control addform" placeholder="UAN" name="UAN" id="UAN" required>
+                <input type="number" class="form-control addform" placeholder="BankAccount" id="BankAccount" name="Bankaccount" required>
+                <input type="text" class="form-control addform" placeholder="Location" id="Location" name="Location" required>
+                <button class="btn btn-primary" type="submit">Add Employee</button>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+{% endblock mainnavcontent %}

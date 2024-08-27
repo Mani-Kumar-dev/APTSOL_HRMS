@@ -1,0 +1,39 @@
+{% extends "auth.html" %}
+{% load static %}
+{% block authtitle %}
+<title>Login</title>
+{% endblock authtitle %}
+{% block authcontent%}
+<section class="signform">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form_sign">
+                    <div class="log-logo">
+                        <img src="{% static 'assets/images/Logo/logo.png'%}" class="img-fluid" alt="Logo">
+                    </div>
+                    <div class="head">
+                        <h1 class="loghead">LOGIN</h1>
+                    </div>
+                    <form action="{% url 'login'%}" method="post">
+                        {% csrf_token%}
+                        {% for message in messages %}
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            <strong>{{message}}</strong>
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                          </div>
+                        {% endfor %}
+                        <input type="text" class="form-control form-log" placeholder="UserName" name="username" required>
+                       
+                        <input type="Password" class="form-control form-log" placeholder="Password" name="password" required>
+                       
+                        <button type="submit" class="btn btn-outline-primary form-control btn-log">Login</button>
+                        <a href="/" class="loginlink"><span class="account">Forgot Password ?</span></a>
+                        <!-- <a href="/signin" class="loginlink"><span class="account">Don't have a Acocunt ?</span></a> -->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock authcontent%}

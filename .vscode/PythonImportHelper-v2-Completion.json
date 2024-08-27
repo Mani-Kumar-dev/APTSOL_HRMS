@@ -1,0 +1,1405 @@
+[
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "IntegrityError",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "auth",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "auth",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "Employee_detail",
+        "importPath": "AGT_admin_app.models",
+        "description": "AGT_admin_app.models",
+        "isExtraImport": true,
+        "detail": "AGT_admin_app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Depart",
+        "importPath": "AGT_admin_app.models",
+        "description": "AGT_admin_app.models",
+        "isExtraImport": true,
+        "detail": "AGT_admin_app.models",
+        "documentation": {}
+    },
+    {
+        "label": "LeaveType",
+        "importPath": "AGT_admin_app.models",
+        "description": "AGT_admin_app.models",
+        "isExtraImport": true,
+        "detail": "AGT_admin_app.models",
+        "documentation": {}
+    },
+    {
+        "label": "LeaveRequest",
+        "importPath": "AGT_admin_app.models",
+        "description": "AGT_admin_app.models",
+        "isExtraImport": true,
+        "detail": "AGT_admin_app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Payslip",
+        "importPath": "AGT_admin_app.models",
+        "description": "AGT_admin_app.models",
+        "isExtraImport": true,
+        "detail": "AGT_admin_app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Employee_detail",
+        "importPath": "AGT_admin_app.models",
+        "description": "AGT_admin_app.models",
+        "isExtraImport": true,
+        "detail": "AGT_admin_app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Employee_detail",
+        "importPath": "AGT_admin_app.models",
+        "description": "AGT_admin_app.models",
+        "isExtraImport": true,
+        "detail": "AGT_admin_app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Employee_detail",
+        "importPath": "AGT_admin_app.models",
+        "description": "AGT_admin_app.models",
+        "isExtraImport": true,
+        "detail": "AGT_admin_app.models",
+        "documentation": {}
+    },
+    {
+        "label": "LeaveRequest",
+        "importPath": "AGT_admin_app.models",
+        "description": "AGT_admin_app.models",
+        "isExtraImport": true,
+        "detail": "AGT_admin_app.models",
+        "documentation": {}
+    },
+    {
+        "label": "LeaveType",
+        "importPath": "AGT_admin_app.models",
+        "description": "AGT_admin_app.models",
+        "isExtraImport": true,
+        "detail": "AGT_admin_app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Payslip",
+        "importPath": "AGT_admin_app.models",
+        "description": "AGT_admin_app.models",
+        "isExtraImport": true,
+        "detail": "AGT_admin_app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Employee_detail",
+        "importPath": "AGT_admin_app.models",
+        "description": "AGT_admin_app.models",
+        "isExtraImport": true,
+        "detail": "AGT_admin_app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Depart",
+        "importPath": "AGT_admin_app.models",
+        "description": "AGT_admin_app.models",
+        "isExtraImport": true,
+        "detail": "AGT_admin_app.models",
+        "documentation": {}
+    },
+    {
+        "label": "LeaveRequest",
+        "importPath": "AGT_admin_app.models",
+        "description": "AGT_admin_app.models",
+        "isExtraImport": true,
+        "detail": "AGT_admin_app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Payslip",
+        "importPath": "AGT_admin_app.models",
+        "description": "AGT_admin_app.models",
+        "isExtraImport": true,
+        "detail": "AGT_admin_app.models",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "AGT_admin_app",
+        "description": "AGT_admin_app",
+        "isExtraImport": true,
+        "detail": "AGT_admin_app",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "MultipleObjectsReturned",
+        "importPath": "django.core.exceptions",
+        "description": "django.core.exceptions",
+        "isExtraImport": true,
+        "detail": "django.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "AGT_app",
+        "description": "AGT_app",
+        "isExtraImport": true,
+        "detail": "AGT_app",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "AGT_Employee",
+        "description": "AGT_Employee",
+        "isExtraImport": true,
+        "detail": "AGT_Employee",
+        "documentation": {}
+    },
+    {
+        "label": "FileResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "mimetypes",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "mimetypes",
+        "description": "mimetypes",
+        "detail": "mimetypes",
+        "documentation": {}
+    },
+    {
+        "label": "calendar",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "calendar",
+        "description": "calendar",
+        "detail": "calendar",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "AGT_Hr",
+        "description": "AGT_Hr",
+        "isExtraImport": true,
+        "detail": "AGT_Hr",
+        "documentation": {}
+    },
+    {
+        "label": "send_mail",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
+        "documentation": {}
+    },
+    {
+        "label": "mail",
+        "importPath": "django.core",
+        "description": "django.core",
+        "isExtraImport": true,
+        "detail": "django.core",
+        "documentation": {}
+    },
+    {
+        "label": "EmailMessage",
+        "importPath": "django.core.mail.message",
+        "description": "django.core.mail.message",
+        "isExtraImport": true,
+        "detail": "django.core.mail.message",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "constants",
+        "importPath": "django.contrib.messages",
+        "description": "django.contrib.messages",
+        "isExtraImport": true,
+        "detail": "django.contrib.messages",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "AGT_Project.AGT_admin_app.migrations.0001_initial",
+        "description": "AGT_Project.AGT_admin_app.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Depart',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=100)),",
+        "detail": "AGT_Project.AGT_admin_app.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "AGT_Project.AGT_admin_app.migrations.0002_payslip",
+        "description": "AGT_Project.AGT_admin_app.migrations.0002_payslip",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('AGT_admin_app', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Payslip',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('month', models.CharField(max_length=7)),",
+        "detail": "AGT_Project.AGT_admin_app.migrations.0002_payslip",
+        "documentation": {}
+    },
+    {
+        "label": "AgtAdminAppConfig",
+        "kind": 6,
+        "importPath": "AGT_Project.AGT_admin_app.apps",
+        "description": "AGT_Project.AGT_admin_app.apps",
+        "peekOfCode": "class AgtAdminAppConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'AGT_admin_app'",
+        "detail": "AGT_Project.AGT_admin_app.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Depart",
+        "kind": 6,
+        "importPath": "AGT_Project.AGT_admin_app.models",
+        "description": "AGT_Project.AGT_admin_app.models",
+        "peekOfCode": "class Depart(models.Model):\n    name=models.CharField(max_length=100,null=False)\n    def __str__(self):\n        return self.name\nclass LeaveType(models.Model):\n    name=models.CharField(max_length=100,null=False)  \n    def __str__(self):\n        return self.name \nclass Employee_detail(models.Model):\n    image=models.ImageField(upload_to=\"images\",null=True,blank=True)",
+        "detail": "AGT_Project.AGT_admin_app.models",
+        "documentation": {}
+    },
+    {
+        "label": "LeaveType",
+        "kind": 6,
+        "importPath": "AGT_Project.AGT_admin_app.models",
+        "description": "AGT_Project.AGT_admin_app.models",
+        "peekOfCode": "class LeaveType(models.Model):\n    name=models.CharField(max_length=100,null=False)  \n    def __str__(self):\n        return self.name \nclass Employee_detail(models.Model):\n    image=models.ImageField(upload_to=\"images\",null=True,blank=True)\n    First_Name = models.CharField(max_length=50)\n    Last_Name = models.CharField(max_length=50)\n    Email = models.EmailField()\n    Contact = models.BigIntegerField()",
+        "detail": "AGT_Project.AGT_admin_app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Employee_detail",
+        "kind": 6,
+        "importPath": "AGT_Project.AGT_admin_app.models",
+        "description": "AGT_Project.AGT_admin_app.models",
+        "peekOfCode": "class Employee_detail(models.Model):\n    image=models.ImageField(upload_to=\"images\",null=True,blank=True)\n    First_Name = models.CharField(max_length=50)\n    Last_Name = models.CharField(max_length=50)\n    Email = models.EmailField()\n    Contact = models.BigIntegerField()\n    Emp_Id = models.CharField(primary_key=True,max_length=20)\n    Department = models.ForeignKey(Depart,on_delete=models.CASCADE)\n    Designation = models.CharField(max_length=50)\n    Salary = models.DecimalField(max_digits=10, decimal_places=2)",
+        "detail": "AGT_Project.AGT_admin_app.models",
+        "documentation": {}
+    },
+    {
+        "label": "LeaveRequest",
+        "kind": 6,
+        "importPath": "AGT_Project.AGT_admin_app.models",
+        "description": "AGT_Project.AGT_admin_app.models",
+        "peekOfCode": "class LeaveRequest(models.Model):\n    Emp_Id = models.ForeignKey(Employee_detail,on_delete=models.CASCADE)\n    leave_type = models.ForeignKey(LeaveType, on_delete=models.CASCADE)\n    start_date = models.DateField()\n    end_date = models.DateField()\n    reason = models.TextField()\n    status = models.CharField(max_length=50, choices=[('pending', 'Pending'), ('approved', 'Approved'), ('rejected', 'Rejected')])\n    def __str__(self):\n        return f\"{self.Emp_Id} {self.start_date} 'to' {self.end_date}\"\nclass Payslip(models.Model):",
+        "detail": "AGT_Project.AGT_admin_app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Payslip",
+        "kind": 6,
+        "importPath": "AGT_Project.AGT_admin_app.models",
+        "description": "AGT_Project.AGT_admin_app.models",
+        "peekOfCode": "class Payslip(models.Model):\n    Emp_Id = models.ForeignKey(Employee_detail,on_delete=models.CASCADE)\n    month = models.CharField(max_length=7)\n    payslip_pdf = models.FileField(upload_to='payslips/')\n    def __str__(self):\n        return f\"Payslip for {self.month}\"",
+        "detail": "AGT_Project.AGT_admin_app.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "AGT_Project.AGT_admin_app.urls",
+        "description": "AGT_Project.AGT_admin_app.urls",
+        "peekOfCode": "urlpatterns = [\n   path(\"admin_app/\",views.admin_app,name=\"admin_app\"),\n   path(\"allemps/\",views.allemps,name=\"allemps\"),\n   path(\"hrsignin/\",views.add_Hr,name=\"hrsignin\"),\n   path(\"adminsignin/\",views.add_admin,name=\"adminsignin\"),\n   path('Empsignin/',views.emp_signin,name=\"Empsignin\"),\n   path('confirm_delete/<slug:Emp_Id>/', views.remove_employee, name='confirm_delete'),\n   path('edit_emp/<slug:Emp_Id>/',views.editemp,name=\"edit_emp\"),\n]+ static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)",
+        "detail": "AGT_Project.AGT_admin_app.urls",
+        "documentation": {}
+    },
+    {
+        "label": "admin_app",
+        "kind": 2,
+        "importPath": "AGT_Project.AGT_admin_app.views",
+        "description": "AGT_Project.AGT_admin_app.views",
+        "peekOfCode": "def admin_app(request):\n    if request.user.is_authenticated:\n        current_user=request.user\n        emp=Employee_detail.objects.get(Email=current_user.email)\n        context={\"emp\":emp}\n        return render(request,\"admin.html\",context)\n    else:\n         return render(request,'login.html')\ndef allemps(request):\n    if request.user.is_authenticated:",
+        "detail": "AGT_Project.AGT_admin_app.views",
+        "documentation": {}
+    },
+    {
+        "label": "allemps",
+        "kind": 2,
+        "importPath": "AGT_Project.AGT_admin_app.views",
+        "description": "AGT_Project.AGT_admin_app.views",
+        "peekOfCode": "def allemps(request):\n    if request.user.is_authenticated:\n        emps=Employee_detail.objects.all()\n        current_user=request.user\n        emp=Employee_detail.objects.get(Email=current_user.email)\n        context={\n                 \"emp\":emp,\n                 \"emps\":emps\n                 }\n        print(context)",
+        "detail": "AGT_Project.AGT_admin_app.views",
+        "documentation": {}
+    },
+    {
+        "label": "add_Hr",
+        "kind": 2,
+        "importPath": "AGT_Project.AGT_admin_app.views",
+        "description": "AGT_Project.AGT_admin_app.views",
+        "peekOfCode": "def add_Hr(request):\n    if request.user.is_authenticated:\n        current_url  = request.build_absolute_uri()[-9:-1]\n        context={\"current_url\":current_url }\n        return render(request,\"signin.html\",context)\n    else:\n         return render(request,'login.html')\ndef add_admin(request):\n    if request.user.is_authenticated:\n        current_url  = request.build_absolute_uri()[-12:-1]",
+        "detail": "AGT_Project.AGT_admin_app.views",
+        "documentation": {}
+    },
+    {
+        "label": "add_admin",
+        "kind": 2,
+        "importPath": "AGT_Project.AGT_admin_app.views",
+        "description": "AGT_Project.AGT_admin_app.views",
+        "peekOfCode": "def add_admin(request):\n    if request.user.is_authenticated:\n        current_url  = request.build_absolute_uri()[-12:-1]\n        context={\"current_url\":current_url }\n        return render(request,\"signin.html\",context)\n    else:\n         return render(request,'login.html')\ndef emp_signin(request):\n    if request.user.is_authenticated:\n        current_url = request.build_absolute_uri()[-10:-1]",
+        "detail": "AGT_Project.AGT_admin_app.views",
+        "documentation": {}
+    },
+    {
+        "label": "emp_signin",
+        "kind": 2,
+        "importPath": "AGT_Project.AGT_admin_app.views",
+        "description": "AGT_Project.AGT_admin_app.views",
+        "peekOfCode": "def emp_signin(request):\n    if request.user.is_authenticated:\n        current_url = request.build_absolute_uri()[-10:-1]\n        context={\"current_url\":current_url }\n        return render(request,\"signin.html\",context)\n    else:\n         return render(request,'login.html')\ndef remove_employee(request, Emp_Id):\n    if request.user.is_authenticated:\n        if  Emp_Id:",
+        "detail": "AGT_Project.AGT_admin_app.views",
+        "documentation": {}
+    },
+    {
+        "label": "remove_employee",
+        "kind": 2,
+        "importPath": "AGT_Project.AGT_admin_app.views",
+        "description": "AGT_Project.AGT_admin_app.views",
+        "peekOfCode": "def remove_employee(request, Emp_Id):\n    if request.user.is_authenticated:\n        if  Emp_Id:\n            try:  \n                emp_to_be_removed =get_object_or_404(Employee_detail, Emp_Id= Emp_Id)\n                emp_to_be_removed.delete()\n                messages.success(request, 'Employee successfully deleted.')\n                return redirect(\"/allemps\")\n            except:\n                messages.error(request, 'Failed to delete employee.')",
+        "detail": "AGT_Project.AGT_admin_app.views",
+        "documentation": {}
+    },
+    {
+        "label": "editemp",
+        "kind": 2,
+        "importPath": "AGT_Project.AGT_admin_app.views",
+        "description": "AGT_Project.AGT_admin_app.views",
+        "peekOfCode": "def editemp(request, Emp_Id):\n    if request.user.is_authenticated:\n        try:\n            emps = Employee_detail.objects.get(Emp_Id=Emp_Id)\n            context = {\"emps\": emps, \"emp\": emps }\n            if request.method == \"POST\":\n                if 'Emp_Id' in request.POST:\n                    employee = get_object_or_404(Employee_detail, pk=Emp_Id)\n                    employee.image=request.FILES.get(\"image\")\n                    employee.First_Name=request.POST.get(\"First_Name\")",
+        "detail": "AGT_Project.AGT_admin_app.views",
+        "documentation": {}
+    },
+    {
+        "label": "AgtAppConfig",
+        "kind": 6,
+        "importPath": "AGT_Project.AGT_app.apps",
+        "description": "AGT_Project.AGT_app.apps",
+        "peekOfCode": "class AgtAppConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'AGT_app'",
+        "detail": "AGT_Project.AGT_app.apps",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "AGT_Project.AGT_app.urls",
+        "description": "AGT_Project.AGT_app.urls",
+        "peekOfCode": "urlpatterns = [\n   path('home/',views.home,name=\"home\"),\n]",
+        "detail": "AGT_Project.AGT_app.urls",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "AGT_Project.AGT_app.views",
+        "description": "AGT_Project.AGT_app.views",
+        "peekOfCode": "def home(request):\n    if request.user.is_authenticated:\n        current_user=request.user\n        emps=Employee_detail.objects.get(Email=current_user.email)\n        context={\"emp\":emps}\n        return render(request,\"index.html\",context)\n    else:\n         return render(request,'login.html')",
+        "detail": "AGT_Project.AGT_app.views",
+        "documentation": {}
+    },
+    {
+        "label": "AgtEmployeeConfig",
+        "kind": 6,
+        "importPath": "AGT_Project.AGT_Employee.apps",
+        "description": "AGT_Project.AGT_Employee.apps",
+        "peekOfCode": "class AgtEmployeeConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'AGT_Employee'",
+        "detail": "AGT_Project.AGT_Employee.apps",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "AGT_Project.AGT_Employee.urls",
+        "description": "AGT_Project.AGT_Employee.urls",
+        "peekOfCode": "urlpatterns = [\n  path(\"Employee_info/\",views.Employee_Info,name=\"Employee_info\"),\n   path(\"lms/\",views.LMS,name=\"lms\"),\n   path(\"leaverequest/<slug:Emp_Id>/\",views.leave_request,name=\"leaverequest\"),\n   path(\"leavestatus/<slug:Emp_Id>/\",views.leavestatus,name=\"leavestatus\"),\n   path(\"payrolls/\",views.mypayrolls,name=\"payrolls\"),\n   path('payslips/',views.payslips,name=\"payslips\"),\n   path('myhr/',views.myhr,name=\"myhr\"),\n   path('download/<slug:month>/',views.download_pdf, name='download_pdf'),\n]",
+        "detail": "AGT_Project.AGT_Employee.urls",
+        "documentation": {}
+    },
+    {
+        "label": "Employee_Info",
+        "kind": 2,
+        "importPath": "AGT_Project.AGT_Employee.views",
+        "description": "AGT_Project.AGT_Employee.views",
+        "peekOfCode": "def Employee_Info(request):\n    if request.user.is_authenticated:\n        current_user=request.user\n        emps=Employee_detail.objects.get(Email=current_user.email)\n        context={\"emps\":emps,\"emp\":emps,}\n        return render(request,\"Employee.html\",context)\n    else:\n         return render(request,'login.html')\ndef LMS(request):\n    if request.user.is_authenticated:",
+        "detail": "AGT_Project.AGT_Employee.views",
+        "documentation": {}
+    },
+    {
+        "label": "LMS",
+        "kind": 2,
+        "importPath": "AGT_Project.AGT_Employee.views",
+        "description": "AGT_Project.AGT_Employee.views",
+        "peekOfCode": "def LMS(request):\n    if request.user.is_authenticated:\n        current_user=request.user\n        emps=Employee_detail.objects.get(Email=current_user.email)\n        context={\"emps\":emps,\"emp\":emps,}\n        return render(request,\"Lms.html\",context)\n    else:\n        return render(request,\"login.html\")\ndef leave_request(request,Emp_Id):\n    if request.user.is_authenticated:",
+        "detail": "AGT_Project.AGT_Employee.views",
+        "documentation": {}
+    },
+    {
+        "label": "leave_request",
+        "kind": 2,
+        "importPath": "AGT_Project.AGT_Employee.views",
+        "description": "AGT_Project.AGT_Employee.views",
+        "peekOfCode": "def leave_request(request,Emp_Id):\n    if request.user.is_authenticated:\n        current_user=request.user\n        emps=Employee_detail.objects.get(Email=current_user.email)\n        context={\"emps\":emps,\n                 \"emp\":emps,\n                }\n        if request.method == \"POST\":\n            start_date=request.POST.get(\"start_date\")\n            end_date=request.POST.get(\"end_date\")",
+        "detail": "AGT_Project.AGT_Employee.views",
+        "documentation": {}
+    },
+    {
+        "label": "leavestatus",
+        "kind": 2,
+        "importPath": "AGT_Project.AGT_Employee.views",
+        "description": "AGT_Project.AGT_Employee.views",
+        "peekOfCode": "def leavestatus(request,Emp_Id):\n    if request.user.is_authenticated:\n        emps=Employee_detail.objects.get(Emp_Id=Emp_Id)\n        leaverequest=LeaveRequest.objects.filter(Emp_Id=emps)\n        context={\"emps\":emps,\n                 \"emp\":emps,\n                 \"leaverequest\":leaverequest,\n                 }\n        return render(request,\"leavestatus.html\",context)\n    else:",
+        "detail": "AGT_Project.AGT_Employee.views",
+        "documentation": {}
+    },
+    {
+        "label": "mypayrolls",
+        "kind": 2,
+        "importPath": "AGT_Project.AGT_Employee.views",
+        "description": "AGT_Project.AGT_Employee.views",
+        "peekOfCode": "def mypayrolls(request):\n    if request.user.is_authenticated:\n        current_user=request.user\n        emps=Employee_detail.objects.get(Email=current_user.email)\n        context={\"emps\":emps,\n                 \"emp\":emps,\n                }\n        return render(request,\"payrolls.html\",context)\n    else:\n        return render(request,\"login.html\")",
+        "detail": "AGT_Project.AGT_Employee.views",
+        "documentation": {}
+    },
+    {
+        "label": "payslips",
+        "kind": 2,
+        "importPath": "AGT_Project.AGT_Employee.views",
+        "description": "AGT_Project.AGT_Employee.views",
+        "peekOfCode": "def payslips(request):\n    if request.user.is_authenticated:\n        current_user=request.user\n        emps=Employee_detail.objects.get(Email=current_user.email)\n        payslips=Payslip.objects.filter(Emp_Id=emps)\n        context={\"emps\":emps,\n                 \"emp\":emps,\n                 \"payslips\":payslips\n                }\n        return render(request,\"payslips.html\",context)",
+        "detail": "AGT_Project.AGT_Employee.views",
+        "documentation": {}
+    },
+    {
+        "label": "myhr",
+        "kind": 2,
+        "importPath": "AGT_Project.AGT_Employee.views",
+        "description": "AGT_Project.AGT_Employee.views",
+        "peekOfCode": "def myhr(request):\n    if request.user.is_authenticated:\n        current_user=request.user\n        emps=Employee_detail.objects.get(Email=current_user.email)\n        context={\"emps\":emps,\"emp\":emps,}\n        return render(request,\"myhr.html\",context)\n    else:\n         return render(request,'login.html')\ndef download_pdf(request, month):\n    current_user=request.user",
+        "detail": "AGT_Project.AGT_Employee.views",
+        "documentation": {}
+    },
+    {
+        "label": "download_pdf",
+        "kind": 2,
+        "importPath": "AGT_Project.AGT_Employee.views",
+        "description": "AGT_Project.AGT_Employee.views",
+        "peekOfCode": "def download_pdf(request, month):\n    current_user=request.user\n    emps=Employee_detail.objects.get(Email=current_user.email)\n    obj = get_object_or_404(Payslip,Emp_Id=emps,month=month)\n    file_type, file_encoding = mimetypes.guess_type(obj.payslip_pdf.name)\n    if obj.payslip_pdf:\n        response = FileResponse(obj.payslip_pdf, content_type=file_type)\n        response['Content-Disposition'] = f'attachment; filename=\"{obj.payslip_pdf.name.split(\"/\")[-1]}\"'\n        return response",
+        "detail": "AGT_Project.AGT_Employee.views",
+        "documentation": {}
+    },
+    {
+        "label": "AgtHrConfig",
+        "kind": 6,
+        "importPath": "AGT_Project.AGT_Hr.apps",
+        "description": "AGT_Project.AGT_Hr.apps",
+        "peekOfCode": "class AgtHrConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'AGT_Hr'",
+        "detail": "AGT_Project.AGT_Hr.apps",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "AGT_Project.AGT_Hr.urls",
+        "description": "AGT_Project.AGT_Hr.urls",
+        "peekOfCode": "urlpatterns = [\n   path('Hr_manage/',views.Hr_manage,name=\"Hr_manage\"),\n   path('AddEmps/',views.AddEmps,name=\"AddEmps\"),\n   path('Id_card/<slug:Emp_Id>/',views.ID_Card,name=\"Id_card\"),\n   path('Emp_info/<slug:Emp_Id>/',views.Emp_info,name=\"Emp_info\"),\n   path('handleleaves/',views.Handle_leave_requests,name=\"handleleaves\"),\n   path('accept_leave/<slug:leaves_id>/',views.accept_leave_request,name=\"accept_leave\"),\n   path('reject_leave/<slug:leaves_id>/',views.reject_leave_request,name=\"reject_leave\"),\n   path('createPayslips/<slug:Emp_Id>',views.create_Payslips,name=\"createPayslips\"),\n   path('allpdfs/<slug:Emp_Id>/',views.allpdfs,name=\"allpdfs\"),",
+        "detail": "AGT_Project.AGT_Hr.urls",
+        "documentation": {}
+    },
+    {
+        "label": "Hr_manage",
+        "kind": 2,
+        "importPath": "AGT_Project.AGT_Hr.views",
+        "description": "AGT_Project.AGT_Hr.views",
+        "peekOfCode": "def Hr_manage(request):\n    if request.user.is_authenticated:\n        current_user=request.user\n        emps=Employee_detail.objects.get(Email=current_user.email)\n        context={\"emp\":emps}\n        return render(request,\"Hr_Manage.html\",context)\n    else:\n         return render(request,'login.html')\ndef AddEmps(request):\n    if request.user.is_authenticated:",
+        "detail": "AGT_Project.AGT_Hr.views",
+        "documentation": {}
+    },
+    {
+        "label": "AddEmps",
+        "kind": 2,
+        "importPath": "AGT_Project.AGT_Hr.views",
+        "description": "AGT_Project.AGT_Hr.views",
+        "peekOfCode": "def AddEmps(request):\n    if request.user.is_authenticated:\n        current_user=request.user\n        emps=Employee_detail.objects.get(Email=current_user.email)\n        context={\"emp\":emps}\n        if request.method == \"POST\":\n            image=request.FILES.get(\"image\")\n            First_Name=request.POST.get(\"First_Name\")\n            Last_Name=request.POST.get(\"Last_Name\")\n            Email=request.POST.get(\"Email\")",
+        "detail": "AGT_Project.AGT_Hr.views",
+        "documentation": {}
+    },
+    {
+        "label": "ID_Card",
+        "kind": 2,
+        "importPath": "AGT_Project.AGT_Hr.views",
+        "description": "AGT_Project.AGT_Hr.views",
+        "peekOfCode": "def ID_Card(request,Emp_Id):\n    if request.user.is_authenticated:\n        emps=Employee_detail.objects.get(Emp_Id=Emp_Id)\n        context={\"emps\":emps,\n                \"emp\":emps\n                }\n        return render(request,\"agt_Id.html\",context)\n    else:\n        return render(request,'login.html')\ndef Emp_info(request,Emp_Id):",
+        "detail": "AGT_Project.AGT_Hr.views",
+        "documentation": {}
+    },
+    {
+        "label": "Emp_info",
+        "kind": 2,
+        "importPath": "AGT_Project.AGT_Hr.views",
+        "description": "AGT_Project.AGT_Hr.views",
+        "peekOfCode": "def Emp_info(request,Emp_Id):\n    if request.user.is_authenticated:\n        emps=Employee_detail.objects.get(Emp_Id=Emp_Id)\n        context={\"emps\":emps,\n                 \"emp\":emps\n                }\n        return render(request,\"emp_info.html\",context)\n    else:\n        return render(request,'login.html')\ndef Handle_leave_requests(request):",
+        "detail": "AGT_Project.AGT_Hr.views",
+        "documentation": {}
+    },
+    {
+        "label": "Handle_leave_requests",
+        "kind": 2,
+        "importPath": "AGT_Project.AGT_Hr.views",
+        "description": "AGT_Project.AGT_Hr.views",
+        "peekOfCode": "def Handle_leave_requests(request):\n    if request.user.is_authenticated:\n        current_user=request.user\n        emps=Employee_detail.objects.get(Email=current_user.email)\n        leaverequests=LeaveRequest.objects.all()\n        context={\"emp\":emps,\"leaverequests\":leaverequests}\n        return render(request,\"leavesemp.html\",context)\n    else:\n         return render(request,'login.html')\ndef accept_leave_request(request, leaves_id):",
+        "detail": "AGT_Project.AGT_Hr.views",
+        "documentation": {}
+    },
+    {
+        "label": "accept_leave_request",
+        "kind": 2,
+        "importPath": "AGT_Project.AGT_Hr.views",
+        "description": "AGT_Project.AGT_Hr.views",
+        "peekOfCode": "def accept_leave_request(request, leaves_id):\n    if request.user.is_authenticated:\n        try:\n            leave_request = LeaveRequest.objects.get(id=leaves_id)\n        except LeaveRequest.DoesNotExist:\n            messages.error(request, \"Leave request not found.\")\n            return redirect(\"/handleleaves/\")\n        leave_request.status = 'Accepted'\n        leave_request.save()\n        # Send emails",
+        "detail": "AGT_Project.AGT_Hr.views",
+        "documentation": {}
+    },
+    {
+        "label": "reject_leave_request",
+        "kind": 2,
+        "importPath": "AGT_Project.AGT_Hr.views",
+        "description": "AGT_Project.AGT_Hr.views",
+        "peekOfCode": "def reject_leave_request(request, leaves_id):\n    if  request.user.is_authenticated:\n        leave_request = LeaveRequest.objects.get(id=leaves_id)\n        if leave_request:\n            leave_request.status = 'Rejected'\n            leave_request.save()\n            # Send emails\n            from_email = settings.EMAIL_HOST_USER\n            connection = mail.get_connection()\n            connection.open()",
+        "detail": "AGT_Project.AGT_Hr.views",
+        "documentation": {}
+    },
+    {
+        "label": "addpayslips",
+        "kind": 2,
+        "importPath": "AGT_Project.AGT_Hr.views",
+        "description": "AGT_Project.AGT_Hr.views",
+        "peekOfCode": "def addpayslips(request):\n    if request.user.is_authenticated:\n        current_user=request.user\n        emps=Employee_detail.objects.get(Email=current_user.email)\n        context={\"emps\":emps,\"emp\":emps,}\n        return render(request,\"addpayslips.html\",context)\n    else:\n         return render(request,'login.html')\ndef accept_leave_request(request, leaves_id):\n    if request.user.is_authenticated:",
+        "detail": "AGT_Project.AGT_Hr.views",
+        "documentation": {}
+    },
+    {
+        "label": "accept_leave_request",
+        "kind": 2,
+        "importPath": "AGT_Project.AGT_Hr.views",
+        "description": "AGT_Project.AGT_Hr.views",
+        "peekOfCode": "def accept_leave_request(request, leaves_id):\n    if request.user.is_authenticated:\n        try:\n            leave_request = LeaveRequest.objects.get(id=leaves_id)\n        except LeaveRequest.DoesNotExist:\n            messages.error(request, \"Leave request not found.\")\n            return redirect(\"/handleleaves/\")\n        leave_request.status = 'Accepted'\n        leave_request.save()\n        # Send emails",
+        "detail": "AGT_Project.AGT_Hr.views",
+        "documentation": {}
+    },
+    {
+        "label": "create_Payslips",
+        "kind": 2,
+        "importPath": "AGT_Project.AGT_Hr.views",
+        "description": "AGT_Project.AGT_Hr.views",
+        "peekOfCode": "def create_Payslips(request,Emp_Id):\n    if request.user.is_authenticated:\n        current_user=request.user\n        emp=Employee_detail.objects.get(Emp_Id=Emp_Id)\n        emps=Employee_detail.objects.get(Email=current_user.email)\n        context={\"emps\":emp,\"emp\":emps}\n        if request.method == \"POST\":\n            payslip_pdf=request.FILES.get(\"Payslip\")\n            # Emp_Id=request.POST.get(\"Emp_Id\")\n            month=request.POST.get(\"Month\")",
+        "detail": "AGT_Project.AGT_Hr.views",
+        "documentation": {}
+    },
+    {
+        "label": "allpdfs",
+        "kind": 2,
+        "importPath": "AGT_Project.AGT_Hr.views",
+        "description": "AGT_Project.AGT_Hr.views",
+        "peekOfCode": "def allpdfs(request,Emp_Id):\n    if request.user.is_authenticated:\n        current_user=request.user\n        emps=Employee_detail.objects.get(Email=current_user.email)\n        employee=Employee_detail.objects.get(Emp_Id=Emp_Id)\n        context={\"emps\":emps,\"emp\":emps,\"employee\":employee}\n        return render(request,\"allpdfs.html\",context)\n    else:\n         return render(request,'login.html')",
+        "detail": "AGT_Project.AGT_Hr.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "AGT_Project.AGT_Project.asgi",
+        "description": "AGT_Project.AGT_Project.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "AGT_Project.AGT_Project.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "AGT_Project.AGT_Project.settings",
+        "description": "AGT_Project.AGT_Project.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# settings.py\n# APPEND_SLASH = False\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-br@o86ue(0#c_2z^hmh6yk&rw%4yn=fe!mw9*gx0@cjnf60!4s'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []",
+        "detail": "AGT_Project.AGT_Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "AGT_Project.AGT_Project.settings",
+        "description": "AGT_Project.AGT_Project.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-br@o86ue(0#c_2z^hmh6yk&rw%4yn=fe!mw9*gx0@cjnf60!4s'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "AGT_Project.AGT_Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "AGT_Project.AGT_Project.settings",
+        "description": "AGT_Project.AGT_Project.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "AGT_Project.AGT_Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "AGT_Project.AGT_Project.settings",
+        "description": "AGT_Project.AGT_Project.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'authentication',",
+        "detail": "AGT_Project.AGT_Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "AGT_Project.AGT_Project.settings",
+        "description": "AGT_Project.AGT_Project.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'authentication',\n    'AGT_app',\n    'AGT_admin_app',",
+        "detail": "AGT_Project.AGT_Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "AGT_Project.AGT_Project.settings",
+        "description": "AGT_Project.AGT_Project.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'AGT_Project.urls'",
+        "detail": "AGT_Project.AGT_Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "AGT_Project.AGT_Project.settings",
+        "description": "AGT_Project.AGT_Project.settings",
+        "peekOfCode": "ROOT_URLCONF = 'AGT_Project.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR,\"templates\")],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "AGT_Project.AGT_Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "AGT_Project.AGT_Project.settings",
+        "description": "AGT_Project.AGT_Project.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR,\"templates\")],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "AGT_Project.AGT_Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "AGT_Project.AGT_Project.settings",
+        "description": "AGT_Project.AGT_Project.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'AGT_Project.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "AGT_Project.AGT_Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "AGT_Project.AGT_Project.settings",
+        "description": "AGT_Project.AGT_Project.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "AGT_Project.AGT_Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "AGT_Project.AGT_Project.settings",
+        "description": "AGT_Project.AGT_Project.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "AGT_Project.AGT_Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "AGT_Project.AGT_Project.settings",
+        "description": "AGT_Project.AGT_Project.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\nEMAIL_HOST='smtp.gmail.com'\nEMAIL_HOST_USER='manikumarmadatha1149@gmail.com'\nEMAIL_HOST_PASSWORD='ifcvspxdphhmlqej'\nEMAIL_PORT=587\nEMAIL_USE_TLS=True\nEMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'",
+        "detail": "AGT_Project.AGT_Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "AGT_Project.AGT_Project.settings",
+        "description": "AGT_Project.AGT_Project.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\nEMAIL_HOST='smtp.gmail.com'\nEMAIL_HOST_USER='manikumarmadatha1149@gmail.com'\nEMAIL_HOST_PASSWORD='ifcvspxdphhmlqej'\nEMAIL_PORT=587\nEMAIL_USE_TLS=True\nEMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'\n# Static files (CSS, JavaScript, Images)",
+        "detail": "AGT_Project.AGT_Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "AGT_Project.AGT_Project.settings",
+        "description": "AGT_Project.AGT_Project.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\nEMAIL_HOST='smtp.gmail.com'\nEMAIL_HOST_USER='manikumarmadatha1149@gmail.com'\nEMAIL_HOST_PASSWORD='ifcvspxdphhmlqej'\nEMAIL_PORT=587\nEMAIL_USE_TLS=True\nEMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/",
+        "detail": "AGT_Project.AGT_Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "AGT_Project.AGT_Project.settings",
+        "description": "AGT_Project.AGT_Project.settings",
+        "peekOfCode": "USE_TZ = True\nEMAIL_HOST='smtp.gmail.com'\nEMAIL_HOST_USER='manikumarmadatha1149@gmail.com'\nEMAIL_HOST_PASSWORD='ifcvspxdphhmlqej'\nEMAIL_PORT=587\nEMAIL_USE_TLS=True\nEMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'",
+        "detail": "AGT_Project.AGT_Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "AGT_Project.AGT_Project.settings",
+        "description": "AGT_Project.AGT_Project.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\nSTATICFILES_DIRS=[os.path.join(BASE_DIR,\"static\")]\nMEDIA_URL ='/media/'\nMEDIA_ROOT=os.path.join(BASE_DIR,\"media\")\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMESSAGE_TAGS={\n    messages.ERROR:'danger'\n}",
+        "detail": "AGT_Project.AGT_Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "AGT_Project.AGT_Project.settings",
+        "description": "AGT_Project.AGT_Project.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMESSAGE_TAGS={\n    messages.ERROR:'danger'\n}",
+        "detail": "AGT_Project.AGT_Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "AGT_Project.AGT_Project.urls",
+        "description": "AGT_Project.AGT_Project.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('',include(\"authentication.urls\")),\n    path('',include(\"AGT_app.urls\")),\n    path('',include(\"AGT_admin_app.urls\")),\n    path('',include(\"AGT_Hr.urls\")),\n    path('',include(\"AGT_Employee.urls\")),\n]+ static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)",
+        "detail": "AGT_Project.AGT_Project.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "AGT_Project.AGT_Project.wsgi",
+        "description": "AGT_Project.AGT_Project.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "AGT_Project.AGT_Project.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "AuthenticationConfig",
+        "kind": 6,
+        "importPath": "AGT_Project.authentication.apps",
+        "description": "AGT_Project.authentication.apps",
+        "peekOfCode": "class AuthenticationConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'authentication'",
+        "detail": "AGT_Project.authentication.apps",
+        "documentation": {}
+    },
+    {
+        "label": "SignInForm",
+        "kind": 6,
+        "importPath": "AGT_Project.authentication.forms",
+        "description": "AGT_Project.authentication.forms",
+        "peekOfCode": "class SignInForm(forms.Form):\n    username = forms.CharField(max_length=100, widget=forms.TextInput(attrs={'class': 'form-control form-sign', 'placeholder': 'Username'}))\n    email = forms.EmailField(widget=forms.EmailInput(attrs={'class': 'form-control form-sign', 'placeholder': 'Email'}))\n    password = forms.CharField(widget=forms.PasswordInput(attrs={'class': 'form-control form-sign', 'placeholder': 'Password'}))\n    confirm_password = forms.CharField(widget=forms.PasswordInput(attrs={'class': 'form-control form-sign', 'placeholder': 'Confirm Password'}))\nclass LoginForm(forms.Form):\n    username = forms.CharField(max_length=100, widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Username'}))\n    password = forms.CharField(widget=forms.PasswordInput(attrs={'class': 'form-control', 'placeholder': 'Password'}))\n    # You can add additional validation or custom logic here if needed",
+        "detail": "AGT_Project.authentication.forms",
+        "documentation": {}
+    },
+    {
+        "label": "LoginForm",
+        "kind": 6,
+        "importPath": "AGT_Project.authentication.forms",
+        "description": "AGT_Project.authentication.forms",
+        "peekOfCode": "class LoginForm(forms.Form):\n    username = forms.CharField(max_length=100, widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Username'}))\n    password = forms.CharField(widget=forms.PasswordInput(attrs={'class': 'form-control', 'placeholder': 'Password'}))\n    # You can add additional validation or custom logic here if needed",
+        "detail": "AGT_Project.authentication.forms",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "AGT_Project.authentication.urls",
+        "description": "AGT_Project.authentication.urls",
+        "peekOfCode": "urlpatterns = [\n  path('signin/',views.signin,name=\"signin\"),\n  path('',views.loginform,name=\"login\"),\n  path('logout/',views.handlelogout,name=\"logout\")\n]",
+        "detail": "AGT_Project.authentication.urls",
+        "documentation": {}
+    },
+    {
+        "label": "signin",
+        "kind": 2,
+        "importPath": "AGT_Project.authentication.views",
+        "description": "AGT_Project.authentication.views",
+        "peekOfCode": "def signin(request):\n    if request.method == 'POST':\n        form = SignInForm(request.POST)\n        if form.is_valid():\n            username = form.cleaned_data['username']\n            email = form.cleaned_data['email']\n            password = form.cleaned_data['password']\n            confirm_password = form.cleaned_data['confirm_password']\n            if password != confirm_password:\n                messages.info(request, \"Passwords do not match\")",
+        "detail": "AGT_Project.authentication.views",
+        "documentation": {}
+    },
+    {
+        "label": "loginform",
+        "kind": 2,
+        "importPath": "AGT_Project.authentication.views",
+        "description": "AGT_Project.authentication.views",
+        "peekOfCode": "def loginform(request):\n    if request.method == 'POST':\n        form = LoginForm(request.POST)\n        if form.is_valid():\n            username = form.cleaned_data['username']\n            password = form.cleaned_data['password']\n            user = authenticate(username=username, password=password)\n            if user is not None:\n                login(request, user)\n                return redirect('/home')",
+        "detail": "AGT_Project.authentication.views",
+        "documentation": {}
+    },
+    {
+        "label": "handlelogout",
+        "kind": 2,
+        "importPath": "AGT_Project.authentication.views",
+        "description": "AGT_Project.authentication.views",
+        "peekOfCode": "def handlelogout(request):\n    logout(request)\n    messages.success(request,\"Logout Successfully\")\n    return redirect('/')",
+        "detail": "AGT_Project.authentication.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "AGT_Project.manage",
+        "description": "AGT_Project.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'AGT_Project.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "AGT_Project.manage",
+        "documentation": {}
+    }
+]

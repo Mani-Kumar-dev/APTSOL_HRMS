@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}
+<title>employeeloyees</title>
+{% endblock title %}
+
+{% block mainnavcontent%}
+<form id="deleteForm" action="{% url 'confirm_delete' emps.First_Name %}" method="POST" class="form_add">
+    {% csrf_token %}
+    <input type="submit" value="Confirm Delete" class="btn btn-danger" onclick="return confirmDelete();">
+</form>
+
+
+{% endblock mainnavcontent %}

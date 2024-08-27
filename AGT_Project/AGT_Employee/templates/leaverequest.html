@@ -1,0 +1,46 @@
+{% extends "base.html"%}
+{% load static %}
+{% block title %}
+<title>LEAVE REQUEST</title>
+{% endblock title %}
+
+{% block mainnavcontent%}
+<div class="row mb-5 mt-5">
+    <div class="col-md-12">
+        <h1 class="admin-head">
+         LEAVE MANAGEMENT SYSTEM
+        </h1>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <div class="leave_form">
+            {% for message in messages %}
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                <strong>{{message}}</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            {% endfor %}
+            <form action="{% url 'leaverequest' emp.Emp_Id %}" method="post">{% csrf_token %}
+                <label for="First_Name" class="form-label">First Name</label>
+                <input type="text" class="form-control addform" placeholder="First Name" id="First_Name" name="First_Name" value="{{emp.First_Name}}" required>
+                <label for="Last_Name" class="form-label">Last Name</label>
+                <input type="text" class="form-control addform" placeholder="Last Name" id="Last_Name" name="Last_Name" value="{{emp.Last_Name}}" required>
+                <label for="leavetype">Leave Type</label>
+                <select class="form-select" id="leavetype" name="leavetype" aria-label="Default select example">
+                    <option selected>Leave type</option>
+                    <option value="Sick Leave">Sick Leave</option>
+                    <option value="Casual Leave">Casual Leave</option>
+                </select>
+                <label for="start_date" class="form-label">Start_date</label>
+                <input type="date" class="form-control addform" placeholder="Start_date" id="start_date" name="start_date" required>
+                <label for="end_date" class="form-label">End_date</label>
+                <input type="date" class="form-control addform" placeholder="End_date" id="end_date" name="end_date" required>
+                <label for="reason" class="form-label">Reason</label>
+                <textarea name="reason" id="reason" cols="30" rows="5" placeholder="Reason" class="form-control addform mb-3"></textarea>
+                <button class="btn btn-primary mb-3" type="submit">Request Leave</button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock mainnavcontent%}

@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}
+<title>Add Payslips</title>
+{% endblock title %}
+
+{% block mainnavcontent%}
+<div class="row mb-5 mt-5">
+    <div class="col-md-12">
+        <h1 class="admin-head">
+         ADD PAYSLIP
+        </h1>
+    </div>
+</div>
+<div class="row mb-3">
+    <div class="col-md-6">
+        <div class="add_empsForm">
+            {% for message in messages %}
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                <strong>{{message}}</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            {% endfor %}
+            <form action="/createPayslips/{{emps.Emp_Id}}" method="POST" enctype="multipart/form-data">{% csrf_token %}
+                <label for="payslip-upload">Upload Payslip</label>
+                <input type="file" id="img-upload" class="form-control addform" placeholder="Upload Payslip" name="Payslip" required>
+                <input type="number" class="form-control addform" placeholder="Emp_Id" id="Emp_Id" name="Emp_Id" value="{{emps.Emp_Id}}" required>
+                <input type="text" class="form-control addform" placeholder="First Name" id="First_Name" name="First_Name" value="{{emps.First_Name}} {{emps.Last_Name}}" required>
+                <input type="month" class="form-control addform" placeholder="Month" id="start_date" name="Month" required>
+                <button class="btn btn-primary" type="submit">Add Payslip</button>
+            </form>
+        </div>
+    </div>
+
+</div>
+{% endblock mainnavcontent%}

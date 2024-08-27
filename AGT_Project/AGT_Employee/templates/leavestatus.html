@@ -1,0 +1,56 @@
+{% extends "base.html"%}
+{% load static %}
+{% block title %}
+<title>Employee Information Management</title>
+{% endblock title %}
+
+{% block mainnavcontent%}
+<div class="row mb-5 mt-5">
+    <div class="col-md-12">
+        <h1 class="admin-head">
+         EMPLOYEE LEAVE STATUS
+        </h1>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <!-- {% for message in messages %}
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>{{message}}</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        {% endfor %} -->
+        <table class="table table-success table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">Employee_Id</th>
+                    <th scope="col">Name</th>
+                   
+                    <th scope="col">Leave_type</th>
+                    <th scope="col">Start_date </th>
+                    <th scope="col">End_date</th>
+                    <th scope="col">Reason</th>
+                    <th scope="col">Status</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                {% for leaves in leaverequest %}
+                <tr>
+
+                    <td>{{emp.Emp_Id}}</td>
+                    <td>{{emps.First_Name}} {{emps.Last_Name}}</td>
+                    <td>{{leaves.leave_type}}</td>
+
+                    <td>{{leaves.start_date}}</td>
+                    <td>{{leaves.end_date}}</td>
+                    <td>{{leaves.reason}}</td>
+                    <td>{{leaves.status}}</td>
+
+                </tr>
+                {%endfor%}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock mainnavcontent%}

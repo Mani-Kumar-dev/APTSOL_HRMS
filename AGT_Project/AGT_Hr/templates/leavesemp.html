@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}
+<title>Leave Request From Employees</title>
+{% endblock title %}
+{% block mainnavcontent %}
+<div class="row mt-5 mb-5">
+    <div class="col-md-12">
+        <h1 class="admin-head">
+          LEAVES FROM EMPLOYEES
+        </h1>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+
+       {% for message in messages %}
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>{{message}}</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        {% endfor %}
+        <table class="table table-success table-striped">
+            <thead>
+              <tr>
+                <th scope="col">employee_Id</th>
+                <th scope="col">Leave Type</th>
+                <th scope="col">Reason</th>
+
+                <th scope="col">Start Date</th>
+                <th scope="col">End Date</th>
+                <th scope="col">Status</th>
+                <th scope="col">Action</th>
+            </tr>
+            </thead>
+            <tbody>
+                {% for leaves in leaverequests %}
+              <tr>
+                <td>{{leaves.Emp_Id}}</td>
+                <td>{{leaves.leave_type}}</td>
+                <td>{{leaves.reason}}</td>
+
+                <td>{{leaves.start_date}}</td>
+                <td>{{leaves.end_date}}</td>
+                <td>{{leaves.status}}</td>
+                <td>
+                    <a href="{% url 'accept_leave' leaves.id %}" class="btn btn-primary ">Accept</a>
+                    <a href="{% url 'reject_leave' leaves.id %}" class="btn btn-danger">Reject</a>
+
+                </td>
+
+              </tr>
+              {% endfor %}
+              
+            </tbody>
+          </table>
+    </div>
+</div>
+<script>
+
+</script>
+{%endblock%}

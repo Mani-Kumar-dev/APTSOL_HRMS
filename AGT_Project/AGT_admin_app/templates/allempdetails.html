@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}
+<title>employeeloyees</title>
+{% endblock title %}
+
+{% block mainnavcontent%}
+<div class="row mb-5 mt-5">
+    <div class="col-md-12">
+        <h1 class="admin-head">
+          EMPLOYEE DETAILS
+        </h1>
+    </div>
+</div>
+
+<!-- <div class="img-card">
+    <img src="{{employee.image.url}}" class="img-fluid" alt="NO Image">
+</div> -->
+{% for message in messages %}
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+    <strong>{{message}}</strong>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+{% endfor %}
+<table class="table table-success table-striped">
+    <thead>
+      <tr>
+        <th scope="col">employee_Id</th>
+        <th scope="col">First_Name</th>
+        <th scope="col">Last_Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">Contact</th>
+        <th scope="col">Department</th>
+        <th scope="col">Designation</th>
+        <!-- <th scope="col">Salary</th>
+        <th scope="col">BasicPay</th>
+        <th scope="col">PAN</th>
+        <th scope="col"> UAN </th>
+        <th scope="col">BankAccount </th> -->
+        <th scope="col"> Location </th>
+        <th scope="col"> Action </th>
+
+
+
+      </tr>
+    </thead>
+    <tbody>
+      {% for employee in emps %}
+      <tr>
+        <td>{{employee.Emp_Id}}</td>
+        <td>{{employee.First_Name}}</td>
+        <td>{{employee.Last_Name}}</td>
+        <td>{{employee.Email}}</td>
+        <td>{{employee.Contact}}</td>
+       
+        <td>{{employee.Department}}</td>
+        <td>{{employee.Designation}}</td>
+        <!-- <td>{{employee.Salary}}</td>
+        <td>{{employee.BasicPay}}</td>
+        <td>{{employee.PAN}}</td>
+        <td>{{employee.UAN}}</td>
+        <td>{{employee.BankAccount}}</td> -->
+        <td>{{employee.Location}}</td>
+        <td>
+          <a href="{% url 'edit_emp' employee.Emp_Id %}" data-bs-toggle="tooltip" data-bs-placement="top" title="Update"><i class="fa-solid fa-pen icon_view"></i></a>
+          <a href="{% url 'Emp_info' employee.Emp_Id %}" data-bs-toggle="tooltip" data-bs-placement="top" title="View"><i class="fa-solid fa-eye icon_view"></i></a>
+          <a href="{% url 'confirm_delete' employee.Emp_Id %}" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete"><i class="fa-solid fa-trash icon_view"></i></a>
+          <a href="{% url 'allpdfs' employee.Emp_Id%}" data-bs-toggle="tooltip" data-bs-placement="top" title="Add Documents"><i class="fa-solid fa-file-circle-plus icon_view"></i></a>
+        </td>
+      </tr>
+      {% endfor %}
+      
+    </tbody>
+  </table>
+
+{% endblock mainnavcontent%}

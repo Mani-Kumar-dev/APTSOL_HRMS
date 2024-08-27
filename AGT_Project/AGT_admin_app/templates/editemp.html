@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}
+<title>Edit Employee Details</title>
+{% endblock title %}
+
+{% block mainnavcontent%}
+<div class="row mb-3 mt-5">
+    <div class="col-md-12">
+        <h1 class="admin-head">EDIT EMPLOYEE</h1>
+    </div>
+</div>
+<div class="row mb-3">
+    <div class="col-md-6">
+        <div class="add_empsForm">
+            {% for message in messages %}
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                <strong>{{message}}</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            {% endfor %}
+            <form action="/AddEmps/" method="POST" enctype="multipart/form-data">{% csrf_token %}
+                <label for="img-upload">Upload image</label>
+                {% if emp.image %}
+                <img src="{{ emp.image.url }}" alt="Employee Image" style="width: 100px; height: 100px;">
+                {% endif %}
+                <input type="file" id="img-upload" class="form-control addform" placeholder="Upload image" name="image">
+                <input type="text" class="form-control addform" placeholder="First Name" id="First_Name" name="First_Name" value="{{emp.First_Name}}" required>
+                <input type="text" class="form-control addform" placeholder="Last Name" id="Last_Name" name="Last_Name" value="{{emp.Last_Name}}" required>
+                <input type="email" class="form-control addform" placeholder="Email" id="Email" name="Email" value="{{emp.Email}}" required>
+                <input type="number" class="form-control addform" placeholder="Contact" id="Contact" name="Contact" value="{{emp.Contact}}" required>
+                <input type="number" class="form-control addform" placeholder="Emp_Id" id="Emp_Id" name="Emp_Id" value="{{emp.Emp_Id}}" required readonly>
+                <input type="text" class="form-control addform" placeholder="Department" id="Department" value="{{emp.Department}}" name="Department" required>
+                <input type="text" class="form-control addform" placeholder="Designation" id="Designation" value="{{emp.Designation}}" name="Designation" required>
+                <input type="number" class="form-control addform" placeholder="Salary" id="Salary" name="Salary" value="{{emp.Salary}}" required>
+                <input type="text" class="form-control addform" placeholder="BasicPay" id="BasicPay" name="BasicPay" value="{{emp.BasicPay}}" required>
+                <input type="text" class="form-control addform" placeholder="PAN" name="PAN" id="PAN" value="{{emp.PAN}}" required>
+                <input type="number" class="form-control addform" placeholder="UAN" name="UAN" id="UAN" value="{{emp.UAN}}" required>
+                <input type="number" class="form-control addform" placeholder="BankAccount" id="BankAccount" name="Bankaccount" value="{{emp.BankAccount}}" required>
+                <input type="text" class="form-control addform" placeholder="Location" id="Location" name="Location" value="{{emp.Location}}" required>
+                <button class="btn btn-primary" type="submit">Edit Employee</button>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+
+{% endblock mainnavcontent %}

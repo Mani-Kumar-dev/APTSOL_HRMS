@@ -1,0 +1,72 @@
+{% extends "base.html"%}
+{% load static %}
+{% block title %}
+<title>MY PAYROLLS</title>
+{% endblock title %}
+
+{% block mainnavcontent%}
+<div class="row mb-5 mt-5">
+    <div class="col-md-12">
+        <h1 class="admin-head">
+         MY PAYROLLS
+        </h1>
+    </div>
+</div>
+<div class="row mb-5">
+    <div class="col-md-4">
+        <div class="card main-card">
+            <div class="card-icon">
+                <i class="fa-solid fa-users"></i>
+            </div>
+            <div class="card-title">
+                <h4 class="card_text">PAYSLIPS</h4>
+            </div>
+            <div class="card-link">
+                <a href="/payslips" class="view_list">View</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card main-card">
+            <div class="card-icon">
+                <i class="fa-solid fa-users"></i>
+            </div>
+            <div class="card-title">
+                <h4 class="card_text">FORM16</h4>
+            </div>
+            <div class="card-link">
+                <a href="" class="view_list">View</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card main-card">
+            <div class="card-icon">
+                <i class="fa-solid fa-users"></i>
+            </div>
+            <div class="card-title">
+                <h4 class="card_text">TDS</h4>
+            </div>
+            <div class="card-link">
+                <a href="" class="view_list">View</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <div class="card main-card">
+            <div class="card-icon">
+                <i class="fa-solid fa-users"></i>
+            </div>
+            <div class="card-title">
+                <h4 class="card_text">PF</h4>
+            </div>
+            <div class="card-link">
+                <a href="" class="view_list">View</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock mainnavcontent%}

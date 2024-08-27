@@ -1,0 +1,119 @@
+{% extends "base.html"%}
+{% load static %}
+{% block title %}
+<title>Employee Information Management</title>
+{% endblock title %}
+
+{% block mainnavcontent%}
+<div class="row mb-5 mt-5">
+    <div class="col-md-12">
+        <h1 class="admin-head">
+         MY HR
+        </h1>
+    </div>
+</div>
+<div class="row mb-5">
+    <div class="col-md-4">
+        <div class="card main-card">
+            <div class="card-icon">
+                <i class="fa-solid fa-users"></i>
+            </div>
+            <div class="card-title">
+                <h4 class="card_text">RELEVING LETTER</h4>
+            </div>
+            <div class="card-link">
+                <a href="" class="view_list">View</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card main-card">
+            <div class="card-icon">
+                <i class="fa-solid fa-users"></i>
+                
+            </div>
+            <div class="card-title">
+                <h4 class="card_text">OFFER LETTER</h4>
+            </div>
+            <div class="card-link">
+                <a href="" class="view_list">View</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card main-card">
+            <div class="card-icon">
+                <i class="fa-solid fa-users"></i>
+                
+            </div>
+            <div class="card-title">
+                <h4 class="card_text">APPOINTMENT</h4>
+            </div>
+            <div class="card-link">
+                <a href="" class="view_list">View</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row mb-5">
+    <div class="col-md-4">
+        <div class="card main-card">
+            <div class="card-icon">
+                <i class="fa-solid fa-users"></i>
+            </div>
+            <div class="card-title">
+                <h4 class="card_text">HIKE LETTER</h4>
+            </div>
+            <div class="card-link">
+                <a href="" class="view_list">View</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card main-card">
+            <div class="card-icon">
+                <i class="fa-solid fa-users"></i>
+                
+            </div>
+            <div class="card-title">
+                <h4 class="card_text">LEAVE REQUEST</h4>
+            </div>
+            <div class="card-link">
+                <a href="{% url 'leaverequest' emps.Emp_Id %}" class="view_list">View</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card main-card">
+            <div class="card-icon">
+                <i class="fa-solid fa-users"></i>
+                <!-- <span class="side-head">100</span> -->
+            </div>
+            <div class="card-title">
+                <h4 class="card_text">LEAVES STATUS</h4>
+            </div>
+            <div class="card-link">
+                <a href="{% url 'leavestatus' emps.Emp_Id %}" class="view_list">View</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row mb-5">
+    <div class="col-md-4">
+        <div class="card main-card">
+            <div class="card-icon">
+                <i class="fa-solid fa-users"></i>
+                
+            </div>
+            <div class="card-title">
+                <h4 class="card_text">ALLOWANCE</h4>
+            </div>
+            <div class="card-link">
+                <a href="" class="view_list">View</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock mainnavcontent%}

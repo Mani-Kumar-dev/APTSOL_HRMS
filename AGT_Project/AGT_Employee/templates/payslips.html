@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}
+<title>employeeloyees</title>
+{% endblock title %}
+
+{% block mainnavcontent%}
+<div class="row mb-5 mt-5">
+    <div class="col-md-12">
+        <h1 class="admin-head">
+          PAYSLIPS
+        </h1>
+    </div>
+</div>
+<table class="table table-success table-striped">
+    <thead>
+      <tr>
+        <th scope="col">employee_Id</th>
+        <th scope="col">First_Name</th>
+        <th scope="col">Last_Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">Month</th>
+        <th scope="col"> Download </th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for payslip in payslips %}
+      <tr>
+        <td>{{payslip.Emp_Id.Emp_Id}}</td>
+        <td>{{payslip.Emp_Id.First_Name}}</td>
+        <td>{{payslip.Emp_Id.Last_Name}}</td>
+        <td>{{payslip.Emp_Id.Email}}</td>
+        <td>{{payslip.month}}</td>
+        <td>
+          <a href="{% url 'download_pdf' month=payslip.month %}" data-bs-toggle="tooltip" data-bs-placement="top" title="Update" ><i class="fa-solid fa-file-arrow-down"></i></a>
+        </td>
+      </tr>
+      {% endfor %}
+      
+    </tbody>
+  </table>
+
+{% endblock mainnavcontent%}

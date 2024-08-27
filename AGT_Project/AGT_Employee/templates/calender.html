@@ -1,0 +1,42 @@
+{% extends "base.html"%}
+{% load static %}
+{% block title %}
+<title>Employee Information Management</title>
+{% endblock title %}
+
+{% block mainnavcontent%}
+<div class="row mb-5 mt-5">
+    <div class="col-md-12">
+        <h1 class="admin-head">
+          Calender
+        </h1>
+    </div>
+
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                    <th>Sun</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for week in month_calendar %}
+                <tr>
+                    {% for day in week %}
+                    <td>{{ day }}</td>
+                    {% endfor %}
+                </tr>
+                {% endfor %}
+            </tbody>
+    </div>
+</div>
+{% endblock mainnavcontent%}

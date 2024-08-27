@@ -1,0 +1,35 @@
+{% extends "auth.html" %}
+{% load static %}
+{% block authtitle %}
+<title>SIGNIN</title>
+{% endblock authtitle %}
+{% block authcontent%}
+<section class="signform">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form_sign">
+                    <div class="head">
+                        <h1>SignIn</h1>
+                    </div>
+                    <form action="{% url 'signin' %}" method="post">
+                        {% csrf_token%}
+                        {% for message in messages %}
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            <strong>{{message}}</strong>
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                          </div>
+                        {% endfor %}
+                        <input type="text" class="form-control form-sign" placeholder="UserName" name="username" required>
+                        <input type="email" class="form-control form-sign" placeholder="Email" name="email" required>
+                        <input type="Password" class="form-control form-sign" placeholder="Password" name="password" required>
+                        <input type="Password" class="form-control form-sign" placeholder="Confirm Password" name="confirm_password" required>
+                        <button class="btn btn-primary" type="submit">SignIn</button>
+                        <a href="/"><span>Already Singn?</span></a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock authcontent%}

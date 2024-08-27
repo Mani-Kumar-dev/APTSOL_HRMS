@@ -1,0 +1,46 @@
+{% extends "auth.html" %}
+{% load static %}
+{% block authtitle %}
+<title>SIGNIN</title>
+{% endblock authtitle %}
+{% block authcontent%}
+<section class="signform">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form_sign">
+                    <div class="log-logo">
+                        <img src="{% static 'assets/images/Logo/logo.png'%}" class="img-fluid" alt="Logo">
+                    </div>
+                    <div class="head">
+                        {% if current_url == 'hrsignin' %}
+                        <h1 class="loghead">Create Hr Credentials</h1>
+                        {% elif current_url == 'adminsignin' %}
+                        <h1 class="loghead">Create Admin Credentials</h1>
+                        {% elif current_url == 'Empsignin'%}
+                        <h1 class="loghead">Create Employee Credentials</h1>
+                        {% else %}
+                        <h1 class="loghead">SignIn</h1>
+                        {% endif %}
+                    </div>
+                    <form action="{% url 'signin' %}" method="post">
+                        {% csrf_token%}
+                        {% for message in messages %}
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            <strong>{{message}}</strong>
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                          </div>
+                        {% endfor %}
+                        <input type="text" class="form-control form-log" placeholder="UserName" name="username" required>
+                        <input type="email" class="form-control form-log" placeholder="Email" name="email" required>
+                        <input type="Password" class="form-control form-log" placeholder="Password" name="password" required>
+                        <input type="Password" class="form-control form-log" placeholder="Confirm Password" name="confirm_password" required>
+                        <button type="submit" class="btn btn-outline-primary form-control btn-log">SignIn</button>
+                        <a href="/" class="loginlink"><span class="account">Already have credentials?</span></a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock authcontent%}

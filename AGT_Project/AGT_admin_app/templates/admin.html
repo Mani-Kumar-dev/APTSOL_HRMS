@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}
+<title>ADMIN_APP</title>
+{% endblock title %}
+
+{% block mainnavcontent%}
+<div class="row mb-5 mt-5">
+    <div class="col-md-12">
+        <h1 class="admin-head">
+         ADMIN
+        </h1>
+    </div>
+</div>
+<div class="row mb-5">
+    <div class="col-md-4 mb-3">
+        <div class="card main-card">
+            <div class="card-icon">
+                <i class="fa-solid fa-users"></i>
+                <span class="side-head">100</span>
+            </div>
+            <div class="card-title">
+                <h4 class="card_text">ALL EMPLOYEES</h4>
+            </div>
+            <div class="card-link">
+                <a href="/allemps" class="view_list">View</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-3">
+        <div class="card main-card">
+            <div class="card-icon">
+                <i class="fa-solid fa-users"></i>
+                <span class="side-head">100</span>
+            </div>
+            <div class="card-title">
+                <h4 class="card_text">ADD ADMIN CREDENTIALS</h4>
+            </div>
+            <div class="card-link">
+                <a href="/adminsignin" class="view_list">View</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-3">
+        <div class="card main-card">
+            <div class="card-icon">
+                <i class="fa-solid fa-users"></i>
+                <span class="side-head">100</span>
+            </div>
+            <div class="card-title">
+                <h4 class="card_text">ADD HR CREDENTIALS</h4>
+            </div>
+            <div class="card-link">
+                <a href="/hrsignin" class="view_list">View</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="row mb-5">
+    <div class="col-md-4 mb-3">
+        <div class="card main-card">
+            <div class="card-icon">
+                <i class="fa-solid fa-users"></i>
+                <!-- <span class="side-head">100</span> -->
+            </div>
+            <div class="card-title">
+                <h4 class="card_text">ADD EMPLOYEE CREDENTIALS</h4>
+            </div>
+            <div class="card-link">
+                <a href="/Empsignin" class="view_list">View</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock mainnavcontent%}
+
